@@ -36,4 +36,5 @@ function draw() {
     fill("#ff0000");
     stroke("black");
     square(noseX, noseY, diffrence);
+    document.getElementById("size").innerHTML = "The Width and Height of the Square is: " + diffrence + "px";
 }
