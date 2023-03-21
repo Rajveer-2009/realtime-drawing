@@ -7,7 +7,7 @@ diffrence = 0;
 function setup() {
     video = createCapture(VIDEO);
     video.size(500, 500);
-    video.position(20, 75);
+    video.position(20, 90);
     canvas = createCanvas(500, 500);
     canvas.position(560, 75);
     poseNet = ml5.poseNet(video, modleLoaded);
